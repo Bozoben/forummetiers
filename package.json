@@ -8,6 +8,8 @@
     "mdx-deck": "^3.0.13"
   },
   "scripts": {
-    "start": "mdx-deck deck.mdx"
+    "start": "mdx-deck deck.mdx",
+    "dev": "mdx-deck deck.mdx --port $PORT",
+    "build": "mdx-deck build deck.mdx",
   }
 }
