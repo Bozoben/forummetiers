@@ -1,0 +1,13 @@
+{
+  "name": "forum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.19.10",
+    "mdx-deck": "^3.0.13"
+  },
+  "scripts": {
+    "start": "mdx-deck deck.mdx"
+  }
+}

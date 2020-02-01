@@ -1,0 +1,109 @@
+import {
+  Image
+} from 'mdx-deck'
+
+import ace from './static/images/01.gif'
+import dog from './static/images/02.gif'
+import school from './static/images/04.gif'
+import zx81 from './static/images/zx81.png'
+import words from './static/images/wordcloud.png'
+import bonjour from './static/images/bonjour.webp'
+import jobs from './static/images/jobs.webp'
+import work from './static/images/work.webp'
+import learn from './static/images/learn.gif'
+
+import { themes } from 'mdx-deck'
+export const theme = themes.condensed
+
+# Bonjour
+<img src={bonjour}/>
+
+---
+# Le métier d'informaticien
+<img src={ace} />
+
+--- 
+
+<SplitRight>
+<img src={zx81} />
+
+# Qui suis-je ?
+
+Je suis "lead developper" (responsable d'une équipe de développeurs)<br/>
+J'ai fait un bac scientifique et des études à l'université (Licence)<br/>
+J'ai découvert mon 1er ordinateur quand j'étais au collège
+
+</SplitRight>
+
+---
+# Des métiers variés
+<Split>
+<img src={jobs} style={{ width:'500px', padding:'20px'}}/>
+<div style={{ 'text-align': 'left'}}>
+technicien/ienne<br/>
+développeur/euse<br/>
+chef de projet<br/>
+expert/e sécurité<br/>
+formateur/trice<br/>
+administrateur/trice<br/>
+architecte<br/>
+</div>
+
+</Split>
+
+---
+# Parcours de formation
+<SplitRight>
+<img src={school} />
+<div style={{ 'text-align': 'left'}}>
+Bac général / techno, bac pro<br/>
+BTS, DUT<br/>
+Licence pro, Master<br/>
+Ecoles d'ingénieurs<br/>
+Ecoles alternatives (Ecole 42, Simplon)<br/>
+</div>
+</SplitRight>
+
+---
+# Qu'est ce qu'il faut aimer ?
+
+<img src={dog} />
+<div style={{ align : 'left' }}>
+<ul>
+<li>L'anglais</li>
+<li>Résoudre des problèmes</li>
+<li>Travailler en équipe</li>
+<li>Apprendre et se former</li>
+<li>Travailler à l'intérieur</li>
+</ul>
+</div>
+
+---
+# Où travaille-t-on ?
+
+<Split>
+<div style={{ 'text-align': 'left'}}>
+<ul>
+<li>Souvent en ville</li>
+<li>Dans des SSII</li>
+<li>Dans des PME ou grandes entreprises</li>
+<li>Parfois ... à la maison !</li>
+</ul>
+</div>
+<img src={work}/>
+</Split>
+
+---
+# Par où commencer
+
+<Split>
+<div style={{ 'text-align': 'left'}}>
+<ul>
+<li>HTML / CSS</li>
+<li>Javascript</li>
+<li>Python</li>
+<li>Sites: codingame.io, khanacademy.org</li>
+</ul>
+</div>
+<img src={learn}/>
+</Split>
