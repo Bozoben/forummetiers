@@ -10,6 +10,6 @@
   "scripts": {
     "start": "mdx-deck deck.mdx",
     "dev": "mdx-deck deck.mdx --port $PORT",
-    "build": "mdx-deck build deck.mdx",
+    "build": "mdx-deck build deck.mdx"
   }
 }
